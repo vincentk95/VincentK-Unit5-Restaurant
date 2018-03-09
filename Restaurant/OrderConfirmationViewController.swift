@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  OrderConfirmationViewController.swift
 //  Restaurant
 //
 //  Created by Vincent on 09/03/2018.
@@ -8,18 +8,25 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class OrderConfirmationViewController: UIViewController {
+    
+    @IBOutlet weak var timeRemainingLabel: UILabel!
+    
+    var minutes: Int!
+    
+    /// Sets the label
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        timeRemainingLabel.text = "Your wait time is \(minutes!) minutes."
+        
+
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
 
 
 }
-
