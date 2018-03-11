@@ -21,6 +21,7 @@
 		BF33614B2052AE70001CE548 /* IntermediaryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF33614A2052AE70001CE548 /* IntermediaryModels.swift */; };
 		BF33614D2052AEE2001CE548 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF33614C2052AEE2001CE548 /* MenuController.swift */; };
 		BF428D8F2052D88D0067B6B8 /* OrderConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF428D8E2052D88D0067B6B8 /* OrderConfirmationViewController.swift */; };
+		BF52906C205597F70071E6F6 /* doc in Resources */ = {isa = PBXBuildFile; fileRef = BF52906B205597F70071E6F6 /* doc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		BF33614A2052AE70001CE548 /* IntermediaryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediaryModels.swift; sourceTree = "<group>"; };
 		BF33614C2052AEE2001CE548 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		BF428D8E2052D88D0067B6B8 /* OrderConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderConfirmationViewController.swift; sourceTree = "<group>"; };
+		BF52906B205597F70071E6F6 /* doc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = doc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 		BF1C10B220528A8100B49DDD = {
 			isa = PBXGroup;
 			children = (
+				BF52906B205597F70071E6F6 /* doc */,
 				BF1C10BD20528A8100B49DDD /* Restaurant */,
 				BF1C10D220528A8200B49DDD /* RestaurantTests */,
 				BF1C10DD20528A8200B49DDD /* RestaurantUITests */,
@@ -254,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF1C10C920528A8200B49DDD /* LaunchScreen.storyboard in Resources */,
+				BF52906C205597F70071E6F6 /* doc in Resources */,
 				BF1C10C620528A8200B49DDD /* Assets.xcassets in Resources */,
 				BF1C10C420528A8200B49DDD /* Main.storyboard in Resources */,
 			);
